@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>How smart are you?</h1>
+<div id="back">
+<div class="container">
+    
+    <div class="row">
+      <form class="col-sm-7">
+        <div class="form-group">
+          <h4 id="question0"></h2>
+					<input id="answer0" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question1"></h2>
+					<input id="answer1" type="text" class="form-control">
+				</div class="form-group">
+				<div>
+					<h4 id="question2"></h2>
+					<input id="answer2" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question3"></h2>
+					<input id="answer3" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question4"></h2>
+					<input id="answer4" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question5"></h2>
+					<input id="answer5" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question6"></h2>
+					<input id="answer6" type="text" class="form-control">
+				</div>
+				
+			
+				<br>
+				<button type="button" onclick="reveal()" class="btn btn-primary btn-lg">See Results</button>
+			</form>
+			<div class="col-sm-2 col-sm-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+				</div>
+
+				<img class="img-responsive" src="img/teacher.png">
+			</div>
+		</div>
+
+	</div>
+	
+
+<script src="js/main.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script type="js/bootstrap.js"></script>
+</body>
+</html>
